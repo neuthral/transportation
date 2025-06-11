@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" href="/favicon.ico" sizes="any">
+    <link rel="apple-touch-icon" href="/apple-touch-icon.png">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>BUSSIT</title>
+    <script type="module" src="/main.js" defer></script>
+    <style>
+      body: {
+        margin: 0;
+        padding: 0;
+      }
+      .overlay {
+        position: relative;
+        height: 1024px;
+        width: 600px;
+        background-color: #000000;
+        z-index: -1;
+      }
+      iframe: {
+        display: block;
+        position: relative;
+        border: none;
+        margin: 0;
+        padding: 0;
+        pointer-events: none;
+        touch-action: none;
+        z-index: 1;
+        overscroll: none;
+      }
+
+    </style>
+  </head>
+
+  <body>
+    <div class="overlay">
+      <iframe src="https://tremonitori.digitransit.fi/view?cont=enzGzVxV+2xqdsIGz7ru5A==" width="584" height="1024" border="0"></iframe>
+    </div>
+  </body>
+</html>
