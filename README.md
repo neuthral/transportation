@@ -1,5 +1,7 @@
 # Bus timetables
 
+![busbus](school-bus-svgrepo-com.svg)
+
 display my daily busses timetables
 
 built with Tauri (rust) + Vanilla javascript
